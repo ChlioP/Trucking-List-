@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trucking Companies Information</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        #tableContainer {
+            margin-top: 20px; /* Adjust the margin as needed */
+        }
+    </style>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>Enter URL for Trucking List JSON File</h1>
+    <input type="text" id="jsonUrl">
+    <button id="submitBtn">Submit Query</button>
+    <div id="tableContainer"></div>
+</body>
+</html>
+
